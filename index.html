@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Gap Customer Journey</title>
+  <script src="https://cdn.jsdelivr.net/npm/twine-sugarcube@2/dist/format.js"></script>
+</head>
+<body>
+  <tw-storydata name="Gap Adventure" startnode="1" creator="Twine" creator-version="2.7.0" ifid="GAP-ADVENTURE-ID" format="SugarCube" format-version="2.36.1" options="" hidden>
+    <style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style>
+    <script role="script" id="twine-user-script" type="text/twine-javascript"></script>
+
+    <tw-passagedata pid="1" name="Start" tags="" position="100,100" size="100,100">
+      Welcome to the Gap customer journey. What type of shopper are you?<br><br>
+      [[I’m browsing for fun|Browsing]]<br>
+      [[I need something specific|Needs]]
+    </tw-passagedata>
+
+    <tw-passagedata pid="2" name="Browsing" tags="" position="300,100" size="100,100">
+      You're window shopping — checking out new arrivals and styles.<br>
+      But the website is slow, search feels off, and you can't find what you like.<br><br>
+      [[Keep browsing|Engaged]]<br>
+      [[Leave and go to another store|Exit]]
+    </tw-passagedata>
+
+    <tw-passagedata pid="3" name="Needs" tags="" position="100,300" size="100,100">
+      You’re on a mission — jeans, size 34x32.<br>
+      But filtering is clunky and you’re flooded with irrelevant results.<br><br>
+      [[Try to use search again|Search]]<br>
+      [[Go in-store|InStore]]
+    </tw-passagedata>
+
+    <tw-passagedata pid="4" name="Engaged" tags="" position="500,100" size="100,100">
+      Eventually, you find something — but the product detail page is missing info.<br>
+      You bounce.<br><br>
+      Sprinklr helps brands surface the <em>right</em> content across all digital touchpoints, even when journeys are unstructured.<br><br>
+      <strong>Let’s take 30 minutes to talk this week?</strong><br><br>
+      [[Restart|Start]]
+    </tw-passagedata>
+
+    <tw-passagedata pid="5" name="Exit" tags="" position="700,100" size="100,100">
+      That was quick. Lost interest due to poor UX.<br><br>
+      Sprinklr helps brands create consistent experiences that hold attention across every touchpoint.<br><br>
+      <strong>Want to brainstorm this together? Just 30 mins.</strong><br><br>
+      [[Restart|Start]]
+    </tw-passagedata>
+
+    <tw-passagedata pid="6" name="Search" tags="" position="300,300" size="100,100">
+      You try again, but search returns irrelevant promos.<br><br>
+      Sprinklr helps you unify content and product data across systems — so customers see what actually matters.<br><br>
+      <strong>Let’s connect for 30 mins?</strong><br><br>
+      [[Restart|Start]]
+    </tw-passagedata>
+
+    <tw-passagedata pid="7" name="InStore" tags="" position="500,300" size="100,100">
+      You walk into the store. Staff tries to help, but they’re not aware of your online activity.<br><br>
+      Sprinklr helps unify digital and in-person journeys for a seamless experience.<br><br>
+      <strong>Interested in exploring this in a 30 min chat?</strong><br><br>
+      [[Restart|Start]]
+    </tw-passagedata>
+  </tw-storydata>
+</body>
+</html>
